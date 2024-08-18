@@ -72,7 +72,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ## 🛠️ Abre y ejecuta el proyecto
 
-
+Accede al proyecto en ejecución desde el navegador con el siguiente enlace: https://encriptador-de-texto-tawny.vercel.app/
 
 ## ✔️ Tecnologías utilizadas
 
