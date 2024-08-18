@@ -25,7 +25,7 @@ p, textarea, button, h2, ::placeholder {
 }
 
 body {
-    background-image: url("/assets/fondo-degradado.png");
+    background-image: url("../assets/fondo-degradado.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
