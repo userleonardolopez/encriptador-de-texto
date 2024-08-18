@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./assets/logo-alura.svg">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <a href="https://www.aluracursos.com/"><img src="./assets/logo-alura.svg" alt="Logo de Alura"></a>
+            <h1>Encriptador de texto</h1>
+        </div>
+    </header>
+    <main>
+        <section class="entradaDeTexto">
+            <label class="entradaDeTexto__label" for="entradaDeTexto__textarea">
+                <textarea id="entradaDeTexto__textarea" class="entradaDeTexto__textarea" placeholder="Ingrese el texto aqui..." autofocus></textarea>
+            </label>
+            <button class="entradaDeTexto__botonPegar" id="botonPegar" type="button"><img class="svgPegar" src="./assets/icono-pegar.svg" alt="Pegar"></button>
+            <div class="entradaDeTexto__tip">
+                <img class="svgTip" src="./assets/icono-tip.svg" alt="Tip">
+                <p class="entradaDeTexto__tip__descripcion">Solo letras minúsculas y sin acentos</p>
+            </div>
+        </section>
+        <section class="menuCentral">
+            <div class="menuCentral__encriptar">
+                <div class="menuCentral__encriptar__iconos">
+                    <img class="svgLetra" src="./assets/icono-letra.svg" alt="">
+                    <img class="svgFlecha" src="./assets/icono-circuloFlechaDerecha.svg" alt="">
+                    <img class="svgCandado" src="./assets/icono-candadoCerradoClaro.svg" alt="">
+                </div>
+                <button class="menuCentral__encriptar__boton menuCentral__botones" id="botonEncriptar" type="button" onclick="botonEncriptar()">Encriptar</button>
+            </div>
+            <div class="menuCentral__desencriptar">
+                <div class="menuCentral__desencriptar__iconos">
+                    <img class="svgCandado" src="./assets/icono-candadoCerradoOscuro.svg" alt="">
+                    <img class="svgFlecha" src="./assets/icono-circuloFlechaDerecha.svg" alt="">
+                    <img class="svgCandado" src="./assets/icono-candadoAbiertoClaro.svg" alt="">
+                </div>
+                <button class="menuCentral__desencriptar__boton menuCentral__botones" id="botonDesencriptar" type="button" onclick="botonDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="salidaDeTexto">
+            <section class="salidaDeTexto__sinTexto" id="interfazSinTexto">
+                <img class="imgAdvertencia" src="./assets/imagen-advertencia.png" alt="Advertencia">
+                <div class="salidaDeTexto__sinTexto__descripcion">
+                    <h2 class="salidaDeTexto__sinTexto__descripcion__subtitulo">¡Ningún mensaje fue encontrado!</h2>
+                    <p class="salidaDeTexto__sinTexto__descripcion__parrafo">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+            </section>
+            <section class="salidaDeTexto__texto hide" id="interfazConTexto">
+                <label class="salidaDeTexto__texto__label" for="salidaDeTexto__texto__textarea">
+                    <textarea class="salidaDeTexto__texto__textarea" id="salidaDeTexto__texto__textarea" readonly></textarea>
+                </label>
+                <button class="salidaDeTexto__texto__copiar" id="botonCopiar" type="button">
+                    <img class="svgCopiar" src="./assets/icono-copiar.svg" alt="Copiar">Copiar
+                </button>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="autor">
+            <p class="autor__sentence">Desarrollado por:</p>
+            <p class="autor__name">Jesús Leonardo López Almaraz</p>
+        </div>
+        <div class="footer__links">
+            <a href="https://github.com/userLeonardoLopez">
+                <img class="footer__links__icono" src="./assets/icono-github.svg" alt="Mi Github">
+            </a>
+            <a href="https://www.linkedin.com/in/leonardo-lópez-6aa899313">
+                <img class="footer__links__icono" src="./assets/icono-linkedin.svg" alt="Mi LinkedIn">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
