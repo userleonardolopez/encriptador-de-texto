@@ -118,7 +118,6 @@ textarea, textarea::placeholder {
     padding: 4% calc(5% + 50px) 0 5%; /*Padding right = 50px (label {width: calc}) + 5%*/
     box-sizing: content-box;
     flex-grow: 1;
-    text-transform: lowercase;
 }
 
 .entradaDeTexto__botonPegar {
