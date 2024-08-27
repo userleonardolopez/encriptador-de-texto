@@ -2,7 +2,7 @@
 
 <img width="945" alt="portadaReadme" src="https://github.com/user-attachments/assets/5972db5d-fd30-43a3-b5d9-8d57f62537e6">
 <p align="center">
-  <img src="https://img.shields.io/badge/Estado-En_desarrollo-%23009000?labelColor=%23232323">
+  <img src="https://img.shields.io/badge/Estado-Lanzado-%23009000?labelColor=%23232323">
   <img src="https://img.shields.io/badge/Versión-Beta_(v0.1)-%23006666?labelColor=232323">
 </p>
 
