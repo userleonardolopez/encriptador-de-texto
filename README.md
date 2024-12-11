@@ -17,7 +17,7 @@ Permite establecer una comunicación segura donde algún secuestrador del mensaj
   
   El mensaje procesado se mostrará en el campo derecho.
 
-https://github.com/user-attachments/assets/c1ea7fe8-a8ab-4bc0-a935-4da31fbb0a88
+https://github.com/user-attachments/assets/dce538ce-144c-4e59-8885-441f2b552323
 
 <br>
   
@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/c1ea7fe8-a8ab-4bc0-a935-4da31fbb0a88
 
   Para pegar un texto en el campo izquierdo, haga clic en el ícono de portapapeles (📋).
 
-https://github.com/user-attachments/assets/129febea-c13f-4c52-944e-8bfe12c54106
+https://github.com/user-attachments/assets/1e3dbec1-5532-495c-b15a-2492fb82c789
 
 <br>
   
